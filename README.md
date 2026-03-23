@@ -1,10 +1,10 @@
 # EnzFormer2
 
-EnzFormer2 is a follow-up to [EnzFormer](https://github.com/iungyu-snu/EnzFormer). It is designed to leverage large language models more effectively for enzyme engineering, with the goal of improving enzyme activity by predicting activity-enhancing variants.
+EnzFormer2 is a follow-up to [EnzFormer](https://github.com/iungyu-snu/EnzFormer). It is designed to leverage large language models more effectively for enzyme engineering, with the goal of improving enzyme activity by predicting activity-enhancing variants. Although the overall framework can be applied to broader enzyme engineering problems, its core design principle is tailored modeling for a specific enzyme family or closely related enzyme group rather than a one-size-fits-all universal predictor. In the benchmark summarized here, the target enzyme is TEM beta-lactamase, and the task is to rank single amino-acid substitutions by their activity-related fitness.
 
 ## EcTL benchmark
 
-The benchmark summary in this project was aligned to the shared comparison figure rather than to the later comparison bundle. In this version, the benchmark compares:
+The EcTL benchmark in this repository is a mutant ranking benchmark for TEM beta-lactamase. The underlying fitness dataset is based on Firnberg et al., "A comprehensive, high-resolution map of a gene's fitness landscape" (Mol Biol Evol, 2014), which reported a dense mutational fitness landscape for the *Escherichia coli* TEM-1 beta-lactamase gene: https://pubmed.ncbi.nlm.nih.gov/24567513/ The benchmark summary in this project was aligned to the shared comparison figure rather than to the later comparison bundle. In this version, the benchmark compares:
 
 - `EnzFormer Module2+3`
 - `EnzFormer Module2`
