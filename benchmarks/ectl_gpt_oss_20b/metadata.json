@@ -1,0 +1,17 @@
+{
+  "figure_match_target": "Shared benchmark image with EnzFormer Module2+3, EnzFormer Module2, CataPro, UniKcat, and DLKcat.",
+  "image_matched_internal_source_date": "2026-03-15",
+  "image_matched_internal_module2_merged_csv": "/nashome/uglee/chitinase/AI/chitinase_ai/chitinase_ai/runs/ectl_eval/ectl_all_model_scc_20260315_082755/pssm_cross_attn_mean_max_pooling/ectl_merged_predictions.csv",
+  "image_matched_module2_model_name": "pssm_cross_attn_mean_max_pooling",
+  "image_matched_module3_variant": "Module3 v3 neutral-only gating",
+  "image_matched_module3_rule": "neutral keeps Module2 score; local_perturbation/global_unfolding -> 0",
+  "external_summary_csv": "/nashome/uglee/chitinase/AI/benchmark/ectl/results/ectl_module2_module3_external_comparison_thr1p0_20260323_151836/comparison_summary.csv",
+  "external_summary_json": "/nashome/uglee/chitinase/AI/benchmark/ectl/results/ectl_module2_module3_external_comparison_thr1p0_20260323_151836/comparison_summary.json",
+  "note": "The original benchmark image was not preserved as a PNG inside the benchmark results directory. The local comparison CSV/JSON in this project were therefore curated to match that shared image numerically. The EnzFormer rows use the image-matched 2026-03-15 Module2 run and the corresponding Module3 neutral-only gated variant; the external baseline rows reuse the benchmark comparison summary.",
+  "outputs": {
+    "comparison_csv": "/nashome/uglee/EnzFormer2/benchmarks/ectl_gpt_oss_20b/comparison.csv",
+    "comparison_json": "/nashome/uglee/EnzFormer2/benchmarks/ectl_gpt_oss_20b/comparison.json",
+    "figure_png": "/nashome/uglee/EnzFormer2/figures/ectl_gpt_oss_20b_benchmark.png",
+    "figure_pdf": "/nashome/uglee/EnzFormer2/figures/ectl_gpt_oss_20b_benchmark.pdf"
+  }
+}
